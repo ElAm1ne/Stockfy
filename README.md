@@ -1,27 +1,9 @@
-# Frontend
+Ce projet a été developpé en utilisant le framework <b>Angular</b>, ce frontend est rattaché au Backend de ce repository : <p><a href="https://github.com/ElAm1ne/ProjectStock" target="_blank"><strong>https://github.com/ElAm1ne/ProjectStock</strong></a></p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+Vous pouvez consulter le site sur ce lien : <p><a href="https://stockfi.netlify.app/" target="_blank"><strong>https://stockfi.netlify.app/</strong></a></p>
+ou celui ci :
+<p><a href="https://lemon-island-0a1844610.2.azurestaticapps.net" target="_blank"><strong>https://lemon-island-0a1844610.2.azurestaticapps.net</strong></a></p>
 
-## Development server
+Le projet a été developpé en <b>CI-CD</b> en utilisant <b>GitHub Actions</b> et l'intégration de <b>Azure</b> sous forme de <b>Static Web App</b>, un script de deploiement sur GitHub Actions permet le build, test, compression des fichiers Node et Deploiement sur Azure.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Au vu du nom de site "un peu moche" proposé par Azure et l'impossibilité de choisir un nom de domaine personnalisé sur la version étudiante, nous avons opté à l'utilisation d'un service appelé <b>Netlify</b> qui permet le deploiement automatique depuis GitHub après chaque commit vers un site de la forme : https://nomdedomaine.netlify.app. <b>Cette outil est puissant car il repose sur la technologie serverless qui permet de scalé infiniment sans retard et surtout permet le paiement à la requête au lieu d'une execution continue du serveur sur une instance cloud malgré le faible traffic !</b>
